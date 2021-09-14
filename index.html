@@ -1,32 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your number one stop to help you find your next dream vacation.">
-    <link rel="shortcut icon" href="./assets/icons/travel.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your number one stop to help you find your next dream vacation."
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/travel.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Le Voyageur | Travelling agency</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="main-header">
-        <nav>
-            <h1 id="logo">Le Voyageur</h1>
-            <ul>
-                <li><a href="#locations">Locations</a></li>
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <h1 id="logo">Le Voyageur</h1>
+        <ul>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="hero">
-        <h2>Travel Beyond Limits</h2>
-        <h3>Start your voyage at an affordable price with Le Voyageur. <br /> Travel to over 50 cities with one click.</h3>
-        <button>Book Now</button>
+      <h2>Travel Beyond Limits</h2>
+      <h3>
+        Start your voyage at an affordable price with Le Voyageur. <br />
+        Travel to over 50 cities with one click.
+      </h3>
+      <button>Book Now</button>
     </section>
-</body>
+    <section class="locations" id="locations">
+      <header class="locations-head">
+        <h2>Time to explore</h2>
+        <h3>
+          Even dream of going to New York City? <br />
+          We can make that happen!
+        </h3>
+        <img src="./assets/img/cloud.png" alt="" class="moving-cloud1 cloud" />
+        <img src="./assets/img/cloud.png" alt="" class="moving-cloud2 cloud" />
+      </header>
+    </section>
+    <section class="benefits" id="benefits">
+      <header class="benefits-head">
+        <h2>The Perfect Travel Experience</h2>
+        <h3>
+          We cover everything from booking your hotel <br />
+          to scheduling flights and destinations.
+        </h3>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <div class="image-head">
+            <img src="./assets/icons/route-solid.svg" alt="" />
+          </div>
+          <h4>Travel</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime quaerat inventore quas quia totam?</p>
+        </div>
+        <div class="card">
+          <div class="image-head">
+            <img src="./assets/icons/bed-solid.svg" alt="" />
+          </div>
+          <h4>Hotel</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias distinctio doloremque expedita nihil beatae autem.</p>
+        </div>
+        <div class="card">
+          <div class="image-head">
+            <img src="./assets/icons/plane-departure-solid.svg" alt="" />
+          </div>
+          <h4>Fly</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quo temporibus impedit dolores ad voluptas.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+        <div class="form-wrapper">
+            <header class="form-head">
+                <h2>Contact Us</h2>
+            </header>
+            <form>
+                <div class="name-form">
+                    <label for="name">Name:</label>
+                    <input type="text" required>
+                </div>
+                <div class="email-form">
+                    <label for="email">Email:</label>
+                    <input type="email" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <h5>Le Voyageur &copy;</h5>
+            <ul>
+                <li><img src="./assets/icons/twitter.svg" alt=""></li>
+                <li><img src="./assets/icons/instagram.svg" alt=""></li>
+                <li><img src="./assets/icons/youtube.svg" alt=""></li>
+            </ul>
+        </div>
+    </footer>
+  </body>
 </html>
